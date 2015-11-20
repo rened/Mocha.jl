@@ -1,6 +1,6 @@
 sources = ["im2col.cpp", "pooling.cpp"]
 
-compiler = "g++"
+compiler = "/usr/local/bin/g++-5"
 flags    = ["-fPIC", "-Wall", "-O3", "-shared"]
 libname  = "libmochaext.so"
 openmp   = "-fopenmp"
